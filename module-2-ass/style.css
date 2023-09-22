@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Shantell+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.containers{
+    width: 100%;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+.box{
+    background-color: #999999;
+    border: 3px solid black;
+    margin:10px;
+    position: relative;
+}
+
+.box h3{
+    float: right;
+    padding: 0.25em 1.5em;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    margin-bottom: 5px ;
+    font-size: 1.25rem;
+}
+
+.box p{
+    clear: right;
+    font-size: 1rem;
+    padding: 0 1em;
+    font-weight: 600;
+}
+
+.con1 h3{
+    background-color: #d59898;
+}
+.con2 h3{
+    background-color: #c14543;
+}
+.con3 h3{
+    background-color: #e5d198;
+}
+
+
+
+@media (min-width : 992px){
+    .box{
+        width: calc(33.33% - 20px);
+        float: left;
+    }
+}
+
+
+@media (max-width : 992px) and (min-width : 768px){
+    .box{
+        width: calc(50% - 20px);
+        float: left;
+    }
+
+    .con3 {
+        width: calc(100% - 20px);
+    }
+}
