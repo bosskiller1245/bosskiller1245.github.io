@@ -24,10 +24,6 @@ body{
 	background-color: grey;
 
 }
-.container
-{
-	background-color: grey;
-}
 .text-center{
 	font-size: 30px;
 }
@@ -40,4 +36,8 @@ h2{
 }
 .navbar-brand{
 font-size: 30px;	
+}
+
+#beef,#sushi,#chickstory{
+	background-color: grey;
 }
